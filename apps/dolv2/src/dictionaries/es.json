@@ -15,7 +15,8 @@
   "dolores": "Dolores",
   "navbar": {
     "tldr": "Resumen",
-    "home": "Inicio"
+    "home": "Inicio",
+    "quotes": "Citas"
   },
   "pagination": {
     "next": "Siguiente",
@@ -26,5 +27,10 @@
   "wikipedia": "Wikipedia",
   "similar": "Similar",
   "affiliate_link": "Enlace del afiliado",
-  "merch": "Artículos"
+  "merch": "Artículos",
+  "quotes": {
+    "title": "Citas",
+    "description": "Citas motivadoras e inspiradoras para seguir adelante."
+  },
+  "author": "Autora"
 }

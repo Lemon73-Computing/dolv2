@@ -35,7 +35,7 @@
     "husky": "latest",
     "prettier": "latest",
     "prettier-plugin-tailwindcss": "latest",
-    "turbo": "^1.13.2",
+    "turbo": "^1.13.3",
     "vercel-submodules": "^1.0.10"
   }
 }

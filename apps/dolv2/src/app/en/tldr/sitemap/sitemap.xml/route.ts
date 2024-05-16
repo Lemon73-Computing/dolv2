@@ -1,5 +1,5 @@
 import { SiteMetadata, GetTldrCount } from "@/data";
-import { TLDR_CHUNK_SIZE } from "../../../../[language]/tldr/default";
+import { TLDR_CHUNK_SIZE } from "@/app/[language]/tldr/default";
 
 export const revalidate = 604800;
 

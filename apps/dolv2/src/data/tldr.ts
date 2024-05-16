@@ -63,7 +63,7 @@ export async function GetTldrData({
       headers: {
         Authorization: `Token ${process.env.BACKEND_TOKEN ?? ""}`,
       },
-      next: { revalidate: 604800 },
+      next: { revalidate: 2592000 },
     } as RequestInit,
   );
 
@@ -88,7 +88,7 @@ export async function GetTldrRecommendation({
       headers: {
         Authorization: `Token ${process.env.BACKEND_TOKEN ?? ""}`,
       },
-      next: { revalidate: 604800 },
+      next: { revalidate: 2592000 },
     } as RequestInit,
   );
 
@@ -113,7 +113,7 @@ export async function GetTldrBookRecommendation({
       headers: {
         Authorization: `Token ${process.env.BACKEND_TOKEN ?? ""}`,
       },
-      next: { revalidate: 604800 },
+      next: { revalidate: 2592000 },
     } as RequestInit,
   );
 
